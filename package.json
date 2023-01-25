@@ -1,0 +1,18 @@
+{
+  "name": "proyectWithMean",
+  "version": "0.0.1",
+  "description": "This is my proyect as mean stack",
+  "main": "app.server.js",
+  "repository": "https://github.com/Aimar-Bayona/proyect-with-mean.git",
+  "author": "Aimar Bayona Barrientos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon run backend/server/app.server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
